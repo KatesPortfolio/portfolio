@@ -1,0 +1,81 @@
+:root{
+    --navigation-background: #6a6352de;
+    --body-background: #dfccb149;
+    --title-color1: #6a6352de;
+    --title-color2: #98A086;
+    --text-color: black;
+    --text-color2: white;
+    --text-color2-hover: #dfccb1b0;
+    --button-background: #98a086cc;
+    --footer-background: #98a086d6;
+}
+
+
+/*--------------------SECTION-1-------------------*/
+.aboutMe-section-1{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aboutMe-leftSide{
+    width: 40%;
+}
+
+#page-title{
+    font-family: 'CrimsonTextRegular';
+    font-size: 48px;
+    color: var(--title-color1);
+}
+
+#aboutMe-title{
+    font-family: 'JostMedium';
+    font-size: 18px;
+}
+
+.aboutMe-p{
+    text-align: left;
+    font-family: 'JostRegular';
+}
+
+.university-information{
+    border-radius: 20px;
+    background-color: var(--button-background);
+    border:none;
+    padding: 20px;
+}
+
+.university-title, .university-knowledge, .work-title, .work-knowledge{
+    font-family: 'CrimsonTextRegular';
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*--------------------SECTION-2-------------------*/
+
+.aboutMe-section-2, .aboutMe-section-3{
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+}
+
+.studio-information{
+    width: 80%;
+}
+
+.title-information{
+  font-family: 'CrimsonTextRegular'; 
+  font-size: 38px;
+  color: var(--title-color1);
+}
+
+.paragraph-information{
+    font-family: 'JostRegular'; 
+    font-size: 16px;
+    color: var(--text-color);
+
+    width: 50%;
+}
+

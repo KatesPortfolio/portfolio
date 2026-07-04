@@ -7,6 +7,10 @@
   src: url('../fonts/Jost/static/Jost-Medium.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'JostRegular'; 
+  src: url('../fonts/Jost/static/Jost-Regular.ttf') format('truetype');
+}
+@font-face {
   font-family: 'JostLight'; 
   src: url('../fonts/Jost/static/Jost-Light.ttf') format('truetype');
 }
