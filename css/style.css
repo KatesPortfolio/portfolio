@@ -1,0 +1,177 @@
+:root{
+    --navigation-background: #6a6352de;
+    --body-background: #dfccb149;
+    --title-color1: #6a6352de;
+    --title-color2: #98A086;
+    --text-color: black;
+    --text-color2: white;
+    --text-color2-hover: #dfccb1b0;
+    --button-background: #98a086cc;
+    --footer-background: #98a086d6;
+}
+
+body{
+    background-color: var(--body-background);
+    margin: 0;
+}
+
+/*---------------------------HEADER----------------------------*/
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: var(--navigation-background);
+    font-family: 'JostSemibold'; 
+}
+
+.main-header a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.main-header a.active {
+    border-bottom: 1px solid #FFF;
+}
+
+/*-----------------------------MAIN----------------------------*/
+
+
+/*-----------------------------SECTION-1----------------------------*/
+
+.section-1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container{
+    width: 90%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#startside-h1, #startside-h2{
+    color: var(--text-color2);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#startside-h1{
+    font-family:'GaramoundSemibold';
+    font-size: 64px;
+}
+
+#startside-h2{
+    font-family:'Playball';
+    font-size: 48px;
+    
+}
+
+
+/*-----------------------------SECTION-2----------------------------*/
+
+.section-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-container-2, #img-container-3{
+    width: 100%;
+}
+
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-title{
+    color: var(--title-color1);
+    font-family:'Playball';
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+#hey-title{
+    color: var(--title-color2);
+    font-family:'GaramoundBold';
+    font-size: 42px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#aboutme-information{
+    color: var(--text-color);
+    font-family: 'JostMedium';
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#myStory-button{
+    width: 196px;
+    height: 63px;
+    background-color: var(--button-background);
+    color: var(--text-color);
+    font-family: 'CrimsonTextSemibold';
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+#myStory-button:hover{
+    background-color: var(--navigation-background);
+}
+
+/*-----------------------------SECTION-3----------------------------*/
+
+.section-3{
+    margin-top: 50px;
+    border-bottom: 1px solid var(--button-background);
+}
+
+.textLength{
+    font-size: 40px;
+    font-family: 'CrimsonTextRegular';
+    color: var(--title-color2);
+
+    white-space: nowrap;      
+    display: inline-block;     
+    animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        transform: translate3d(100vw, 0, 0); 
+    }
+}
+
+/*-----------------------------FOOTER----------------------------*/
+
+footer{
+    margin-top: 50px;
+    background-color: var(--footer-background);
+    padding: 20px;
+
+    display: flex;
+    gap: 50px;
+}
+
+.footer-contact, #footer-link, .footer-email{
+    color: var(--text-color2);
+    font-family: 'JostSemibold';
+    text-decoration: none;
+    font-size: 0.9rem;
+}

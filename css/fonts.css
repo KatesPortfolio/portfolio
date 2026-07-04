@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'JostSemibold';
+  src: url('../fonts/Jost/static/Jost-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JostMedium'; 
+  src: url('../fonts/Jost/static/Jost-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JostLight'; 
+  src: url('../fonts/Jost/static/Jost-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GaramoundSemibold';
+  src: url('../fonts/EB_Garamond/static/EBGaramond-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GaramoundBold'; 
+  src: url('../fonts/EB_Garamond/static/EBGaramond-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playball'; 
+  src: url('../fonts/Playball/Playball-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CrimsonTextSemibold'; 
+  src: url('../fonts/Crimson_Text/CrimsonText-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CrimsonTextRegular'; 
+  src: url('../fonts/Crimson_Text/CrimsonText-Regular.ttf') format('truetype');
+}
